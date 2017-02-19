@@ -1,0 +1,603 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CB7F50091E59CAD4004E7CCC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CB7F50081E59CAD4004E7CCC /* main.m */; };
+		CB7F500C1E59CAD4004E7CCC /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CB7F500B1E59CAD4004E7CCC /* AppDelegate.m */; };
+		CB7F500F1E59CAD4004E7CCC /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CB7F500E1E59CAD4004E7CCC /* ViewController.m */; };
+		CB7F50121E59CAD4004E7CCC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CB7F50101E59CAD4004E7CCC /* Main.storyboard */; };
+		CB7F50141E59CAD4004E7CCC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CB7F50131E59CAD4004E7CCC /* Assets.xcassets */; };
+		CB7F50171E59CAD4004E7CCC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CB7F50151E59CAD4004E7CCC /* LaunchScreen.storyboard */; };
+		CB7F50221E59CAD5004E7CCC /* RGLoginDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CB7F50211E59CAD5004E7CCC /* RGLoginDemoTests.m */; };
+		CB7F502D1E59CAD5004E7CCC /* RGLoginDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = CB7F502C1E59CAD5004E7CCC /* RGLoginDemoUITests.m */; };
+		CB7F503D1E59CB3C004E7CCC /* RGLoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CB7F503B1E59CB3C004E7CCC /* RGLoginViewController.m */; };
+		CB7F50451E59CDD2004E7CCC /* RGSignInView.m in Sources */ = {isa = PBXBuildFile; fileRef = CB7F50431E59CDD2004E7CCC /* RGSignInView.m */; };
+		CB7F50461E59CDD2004E7CCC /* RGSignInView.xib in Resources */ = {isa = PBXBuildFile; fileRef = CB7F50441E59CDD2004E7CCC /* RGSignInView.xib */; };
+		CB7F504A1E59D521004E7CCC /* RGSignInViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = CB7F50491E59D521004E7CCC /* RGSignInViewModel.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CB7F501E1E59CAD5004E7CCC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CB7F4FFC1E59CAD4004E7CCC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CB7F50031E59CAD4004E7CCC;
+			remoteInfo = RGLoginDemo;
+		};
+		CB7F50291E59CAD5004E7CCC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CB7F4FFC1E59CAD4004E7CCC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CB7F50031E59CAD4004E7CCC;
+			remoteInfo = RGLoginDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CB7F50041E59CAD4004E7CCC /* RGLoginDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RGLoginDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CB7F50081E59CAD4004E7CCC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CB7F500A1E59CAD4004E7CCC /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		CB7F500B1E59CAD4004E7CCC /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		CB7F500D1E59CAD4004E7CCC /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		CB7F500E1E59CAD4004E7CCC /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		CB7F50111E59CAD4004E7CCC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CB7F50131E59CAD4004E7CCC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CB7F50161E59CAD4004E7CCC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CB7F50181E59CAD4004E7CCC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CB7F501D1E59CAD5004E7CCC /* RGLoginDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RGLoginDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CB7F50211E59CAD5004E7CCC /* RGLoginDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RGLoginDemoTests.m; sourceTree = "<group>"; };
+		CB7F50231E59CAD5004E7CCC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CB7F50281E59CAD5004E7CCC /* RGLoginDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RGLoginDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CB7F502C1E59CAD5004E7CCC /* RGLoginDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RGLoginDemoUITests.m; sourceTree = "<group>"; };
+		CB7F502E1E59CAD5004E7CCC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CB7F503A1E59CB3C004E7CCC /* RGLoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RGLoginViewController.h; sourceTree = "<group>"; };
+		CB7F503B1E59CB3C004E7CCC /* RGLoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RGLoginViewController.m; sourceTree = "<group>"; };
+		CB7F50421E59CDD2004E7CCC /* RGSignInView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RGSignInView.h; sourceTree = "<group>"; };
+		CB7F50431E59CDD2004E7CCC /* RGSignInView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RGSignInView.m; sourceTree = "<group>"; };
+		CB7F50441E59CDD2004E7CCC /* RGSignInView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RGSignInView.xib; sourceTree = "<group>"; };
+		CB7F50481E59D521004E7CCC /* RGSignInViewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RGSignInViewModel.h; sourceTree = "<group>"; };
+		CB7F50491E59D521004E7CCC /* RGSignInViewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RGSignInViewModel.m; sourceTree = "<group>"; };
+		CB7F50501E59E535004E7CCC /* Configuration.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Configuration.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CB7F50011E59CAD4004E7CCC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CB7F501A1E59CAD5004E7CCC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CB7F50251E59CAD5004E7CCC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CB7F4FFB1E59CAD4004E7CCC = {
+			isa = PBXGroup;
+			children = (
+				CB7F50061E59CAD4004E7CCC /* RGLoginDemo */,
+				CB7F50201E59CAD5004E7CCC /* RGLoginDemoTests */,
+				CB7F502B1E59CAD5004E7CCC /* RGLoginDemoUITests */,
+				CB7F50051E59CAD4004E7CCC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CB7F50051E59CAD4004E7CCC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CB7F50041E59CAD4004E7CCC /* RGLoginDemo.app */,
+				CB7F501D1E59CAD5004E7CCC /* RGLoginDemoTests.xctest */,
+				CB7F50281E59CAD5004E7CCC /* RGLoginDemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CB7F50061E59CAD4004E7CCC /* RGLoginDemo */ = {
+			isa = PBXGroup;
+			children = (
+				CB7F50561E59E61D004E7CCC /* Other */,
+				CB7F504B1E59E4BF004E7CCC /* Config */,
+				CB7F50471E59D4F1004E7CCC /* ViewModel */,
+				CB7F50411E59CD9E004E7CCC /* View */,
+				CB7F50401E59CD96004E7CCC /* Model */,
+				CB7F503F1E59CD8B004E7CCC /* Controller */,
+				CB7F50131E59CAD4004E7CCC /* Assets.xcassets */,
+				CB7F50071E59CAD4004E7CCC /* Supporting Files */,
+			);
+			path = RGLoginDemo;
+			sourceTree = "<group>";
+		};
+		CB7F50071E59CAD4004E7CCC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CB7F50081E59CAD4004E7CCC /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CB7F50201E59CAD5004E7CCC /* RGLoginDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				CB7F50211E59CAD5004E7CCC /* RGLoginDemoTests.m */,
+				CB7F50231E59CAD5004E7CCC /* Info.plist */,
+			);
+			path = RGLoginDemoTests;
+			sourceTree = "<group>";
+		};
+		CB7F502B1E59CAD5004E7CCC /* RGLoginDemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				CB7F502C1E59CAD5004E7CCC /* RGLoginDemoUITests.m */,
+				CB7F502E1E59CAD5004E7CCC /* Info.plist */,
+			);
+			path = RGLoginDemoUITests;
+			sourceTree = "<group>";
+		};
+		CB7F503F1E59CD8B004E7CCC /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				CB7F500D1E59CAD4004E7CCC /* ViewController.h */,
+				CB7F500E1E59CAD4004E7CCC /* ViewController.m */,
+				CB7F50101E59CAD4004E7CCC /* Main.storyboard */,
+				CB7F503A1E59CB3C004E7CCC /* RGLoginViewController.h */,
+				CB7F503B1E59CB3C004E7CCC /* RGLoginViewController.m */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		CB7F50401E59CD96004E7CCC /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		CB7F50411E59CD9E004E7CCC /* View */ = {
+			isa = PBXGroup;
+			children = (
+				CB7F50421E59CDD2004E7CCC /* RGSignInView.h */,
+				CB7F50431E59CDD2004E7CCC /* RGSignInView.m */,
+				CB7F50441E59CDD2004E7CCC /* RGSignInView.xib */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		CB7F50471E59D4F1004E7CCC /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				CB7F50481E59D521004E7CCC /* RGSignInViewModel.h */,
+				CB7F50491E59D521004E7CCC /* RGSignInViewModel.m */,
+			);
+			name = ViewModel;
+			sourceTree = "<group>";
+		};
+		CB7F504B1E59E4BF004E7CCC /* Config */ = {
+			isa = PBXGroup;
+			children = (
+				CB7F50501E59E535004E7CCC /* Configuration.h */,
+			);
+			name = Config;
+			sourceTree = "<group>";
+		};
+		CB7F50561E59E61D004E7CCC /* Other */ = {
+			isa = PBXGroup;
+			children = (
+				CB7F500A1E59CAD4004E7CCC /* AppDelegate.h */,
+				CB7F500B1E59CAD4004E7CCC /* AppDelegate.m */,
+				CB7F50151E59CAD4004E7CCC /* LaunchScreen.storyboard */,
+				CB7F50181E59CAD4004E7CCC /* Info.plist */,
+			);
+			name = Other;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CB7F50031E59CAD4004E7CCC /* RGLoginDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CB7F50311E59CAD5004E7CCC /* Build configuration list for PBXNativeTarget "RGLoginDemo" */;
+			buildPhases = (
+				CB7F50001E59CAD4004E7CCC /* Sources */,
+				CB7F50011E59CAD4004E7CCC /* Frameworks */,
+				CB7F50021E59CAD4004E7CCC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RGLoginDemo;
+			productName = RGLoginDemo;
+			productReference = CB7F50041E59CAD4004E7CCC /* RGLoginDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CB7F501C1E59CAD5004E7CCC /* RGLoginDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CB7F50341E59CAD5004E7CCC /* Build configuration list for PBXNativeTarget "RGLoginDemoTests" */;
+			buildPhases = (
+				CB7F50191E59CAD5004E7CCC /* Sources */,
+				CB7F501A1E59CAD5004E7CCC /* Frameworks */,
+				CB7F501B1E59CAD5004E7CCC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CB7F501F1E59CAD5004E7CCC /* PBXTargetDependency */,
+			);
+			name = RGLoginDemoTests;
+			productName = RGLoginDemoTests;
+			productReference = CB7F501D1E59CAD5004E7CCC /* RGLoginDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		CB7F50271E59CAD5004E7CCC /* RGLoginDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CB7F50371E59CAD5004E7CCC /* Build configuration list for PBXNativeTarget "RGLoginDemoUITests" */;
+			buildPhases = (
+				CB7F50241E59CAD5004E7CCC /* Sources */,
+				CB7F50251E59CAD5004E7CCC /* Frameworks */,
+				CB7F50261E59CAD5004E7CCC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CB7F502A1E59CAD5004E7CCC /* PBXTargetDependency */,
+			);
+			name = RGLoginDemoUITests;
+			productName = RGLoginDemoUITests;
+			productReference = CB7F50281E59CAD5004E7CCC /* RGLoginDemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CB7F4FFC1E59CAD4004E7CCC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = RoyGao;
+				TargetAttributes = {
+					CB7F50031E59CAD4004E7CCC = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+					};
+					CB7F501C1E59CAD5004E7CCC = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = CB7F50031E59CAD4004E7CCC;
+					};
+					CB7F50271E59CAD5004E7CCC = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = CB7F50031E59CAD4004E7CCC;
+					};
+				};
+			};
+			buildConfigurationList = CB7F4FFF1E59CAD4004E7CCC /* Build configuration list for PBXProject "RGLoginDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CB7F4FFB1E59CAD4004E7CCC;
+			productRefGroup = CB7F50051E59CAD4004E7CCC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CB7F50031E59CAD4004E7CCC /* RGLoginDemo */,
+				CB7F501C1E59CAD5004E7CCC /* RGLoginDemoTests */,
+				CB7F50271E59CAD5004E7CCC /* RGLoginDemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CB7F50021E59CAD4004E7CCC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CB7F50171E59CAD4004E7CCC /* LaunchScreen.storyboard in Resources */,
+				CB7F50141E59CAD4004E7CCC /* Assets.xcassets in Resources */,
+				CB7F50121E59CAD4004E7CCC /* Main.storyboard in Resources */,
+				CB7F50461E59CDD2004E7CCC /* RGSignInView.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CB7F501B1E59CAD5004E7CCC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CB7F50261E59CAD5004E7CCC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CB7F50001E59CAD4004E7CCC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CB7F500F1E59CAD4004E7CCC /* ViewController.m in Sources */,
+				CB7F500C1E59CAD4004E7CCC /* AppDelegate.m in Sources */,
+				CB7F50091E59CAD4004E7CCC /* main.m in Sources */,
+				CB7F50451E59CDD2004E7CCC /* RGSignInView.m in Sources */,
+				CB7F503D1E59CB3C004E7CCC /* RGLoginViewController.m in Sources */,
+				CB7F504A1E59D521004E7CCC /* RGSignInViewModel.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CB7F50191E59CAD5004E7CCC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CB7F50221E59CAD5004E7CCC /* RGLoginDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CB7F50241E59CAD5004E7CCC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CB7F502D1E59CAD5004E7CCC /* RGLoginDemoUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CB7F501F1E59CAD5004E7CCC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CB7F50031E59CAD4004E7CCC /* RGLoginDemo */;
+			targetProxy = CB7F501E1E59CAD5004E7CCC /* PBXContainerItemProxy */;
+		};
+		CB7F502A1E59CAD5004E7CCC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CB7F50031E59CAD4004E7CCC /* RGLoginDemo */;
+			targetProxy = CB7F50291E59CAD5004E7CCC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CB7F50101E59CAD4004E7CCC /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CB7F50111E59CAD4004E7CCC /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CB7F50151E59CAD4004E7CCC /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CB7F50161E59CAD4004E7CCC /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CB7F502F1E59CAD5004E7CCC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		CB7F50301E59CAD5004E7CCC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CB7F50321E59CAD5004E7CCC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = RGLoginDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.RoyGao.RGLoginDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		CB7F50331E59CAD5004E7CCC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = RGLoginDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.RoyGao.RGLoginDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		CB7F50351E59CAD5004E7CCC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = RGLoginDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.RoyGao.RGLoginDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RGLoginDemo.app/RGLoginDemo";
+			};
+			name = Debug;
+		};
+		CB7F50361E59CAD5004E7CCC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = RGLoginDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.RoyGao.RGLoginDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RGLoginDemo.app/RGLoginDemo";
+			};
+			name = Release;
+		};
+		CB7F50381E59CAD5004E7CCC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = RGLoginDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.RoyGao.RGLoginDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = RGLoginDemo;
+			};
+			name = Debug;
+		};
+		CB7F50391E59CAD5004E7CCC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = RGLoginDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.RoyGao.RGLoginDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = RGLoginDemo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CB7F4FFF1E59CAD4004E7CCC /* Build configuration list for PBXProject "RGLoginDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CB7F502F1E59CAD5004E7CCC /* Debug */,
+				CB7F50301E59CAD5004E7CCC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CB7F50311E59CAD5004E7CCC /* Build configuration list for PBXNativeTarget "RGLoginDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CB7F50321E59CAD5004E7CCC /* Debug */,
+				CB7F50331E59CAD5004E7CCC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CB7F50341E59CAD5004E7CCC /* Build configuration list for PBXNativeTarget "RGLoginDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CB7F50351E59CAD5004E7CCC /* Debug */,
+				CB7F50361E59CAD5004E7CCC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CB7F50371E59CAD5004E7CCC /* Build configuration list for PBXNativeTarget "RGLoginDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CB7F50381E59CAD5004E7CCC /* Debug */,
+				CB7F50391E59CAD5004E7CCC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CB7F4FFC1E59CAD4004E7CCC /* Project object */;
+}
